@@ -1,32 +1,56 @@
-Laboratórios do AWS re/Start: Linux
+# AWS re/Start: laboratórios práticos
 
-Neste repositório eu documento os laboratórios do curso AWS re/Start que envolvem Linux. O objetivo é demonstrar na prática o meu conhecimento básico em linha de comando, mostrando o que eu fiz, como fiz e o que aprendi em cada etapa, e não apenas listar o curso no currículo.
+Este repositório é o registro dos laboratórios do AWS re/Start, um programa que faço além do meu curso técnico. Cada laboratório tem uma nota em Markdown com o que executei, o resultado e o que entendi.
 
-Por que eu criei este repositório
+## O que é o AWS re/Start
 
-Aprender tecnologia exige prática, e prática precisa de registro. Ao documentar cada laboratório, eu fixo o que estudei e deixo disponível, para qualquer pessoa conferir, o caminho que percorri, inclusive os erros e as correções. Também uso este espaço para acompanhar a minha evolução em Linux e em computação em nuvem.
+É um programa de formação em tecnologia e nuvem da AWS, de agosto a dezembro de 2026, que consegui por meio da Epros por ser ex-Jovem Aprendiz. O programa me prepara para a certificação da AWS, uma das mais reconhecidas da área.
 
-O que cada laboratório traz
-Objetivo do laboratório e ambiente utilizado.
-Comandos executados, com a explicação de para que servem.
-O que observei durante a execução.
-Dificuldades que encontrei e como resolvi.
-O que aprendi, nas minhas palavras.
-Como o repositório está organizado
+## O que o programa cobre
 
-Cada laboratório tem um arquivo próprio, numerado na ordem em que eu o realizei. Assim, a leitura segue a minha sequência de estudo.
+- Fundamentos de TI e do sistema operacional Linux, com scripts em Python e Shell.
+- Serviços da AWS de computação, armazenamento e rede, como EC2, S3, IAM, VPC, Lambda, CloudFormation, RDS e Route 53.
+- Configuração, monitoramento e suporte aos principais serviços da AWS.
+- Comunicação verbal e escrita, para explicar termos técnicos a usuários não técnicos.
 
-Temas que eu trabalho aqui
-Linux na linha de comando.
-Acesso remoto por SSH com par de chaves.
-Instâncias Amazon EC2 com Amazon Linux.
-Consulta à documentação técnica pelas man pages.
-Sobre mim
+## Como o programa funciona
 
-Sou estudante do curso Técnico em Desenvolvimento de Sistemas no SENAI CIMATEC. Gosto de atuar em várias frentes da tecnologia, como sistemas, suporte, nuvem e infraestrutura, sempre buscando soluções práticas e fáceis de entender.
+Cada tema começa com o conteúdo e um resumo didático. Depois vem um laboratório ou um *knowledge check*, que são cinco questões sobre o conteúdo e, quando vem depois do laboratório, também sobre o que foi praticado. Os laboratórios acontecem em um ambiente seguro, onde posso praticar o que aprendi sem nenhum custo.
 
-Portfólio: https://my-names-is.netlify.app/
-LinkedIn: https://www.linkedin.com/in/pedro-henrique-211b70346/
-Observação
+## Por que escolhi este programa
 
-Os laboratórios pertencem ao curso AWS re/Start. As instruções originais são da Amazon Web Services e não estão reproduzidas aqui; as anotações são minhas.
+Escolhi o AWS re/Start pela oportunidade, pelo desenvolvimento de conhecimento e pela curiosidade de conhecer a AWS. Tenho vontade de aprender e de me desenvolver na área de tecnologia, e vejo este programa como algo que vai somar muito no meu futuro profissional.
+
+## Como o repositório está organizado
+
+Cada pasta é um módulo do programa, e dentro dela há uma nota por laboratório, numerada na ordem em que fiz.
+
+| Pasta | Conteúdo |
+|---|---|
+| [01-linux](01-linux/) | Laboratórios de Linux em uma instância EC2: terminal, arquivos, permissões, processos, serviços, pacotes, logs e scripts em Bash |
+
+Novos módulos entram como novas pastas, com a mesma estrutura.
+
+## Como cada nota é escrita
+
+Todas as notas seguem a mesma ordem:
+
+1. **Objetivo e ambiente:** o que o laboratório pede e onde foi executado.
+2. **Comandos ou serviços:** uma tabela com o que usei e para que serve.
+3. **O que fiz:** o passo a passo, com os resultados.
+4. **O que observei:** o que o resultado mostrou e, quando o texto do laboratório e o comportamento real não batem, a diferença.
+5. **O que aprendi:** o resumo do que levo do laboratório.
+
+## Ferramenta de apoio
+
+Durante as aulas, criei um site para acompanhar o que a turma viu em cada aula, com assuntos, anotações e links: [aws-re-start.vercel.app](https://aws-re-start.vercel.app/).
+
+## Contato
+
+- GitHub: [pedrohfilho](https://github.com/pedrohfilho)
+- Portfólio: [my-names-is.netlify.app](https://my-names-is.netlify.app/)
+- LinkedIn: [Pedro Henrique](https://www.linkedin.com/in/pedro-henrique-211b70346/)
+
+## Observação sobre segurança
+
+Nenhuma chave, credencial, endereço IP ou arquivo de acesso aos laboratórios é publicado aqui. As credenciais dos laboratórios são temporárias e ficam fora do repositório.
